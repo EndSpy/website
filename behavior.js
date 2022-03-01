@@ -2,6 +2,8 @@ function revealMessage() {
     document.getElementById("idBgColor").style.display = 'block';
 }
 
-function BgColor() {
-    changeBgColor
+function countDown() {
+    var currentVal = document.getElementById("countDownButton").innerHTML;
+    var newVal = currentVal - 1;
+    document.getElementById("countDownButton").innerHTML = newVal;
 }
