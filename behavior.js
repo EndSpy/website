@@ -8,3 +8,7 @@ function countDown() {
     var newVal = currentVal - 1;
     document.getElementById("countDownButton").innerHTML = newVal;
 }
+
+if (newVal <= 0) {
+var newVal = "your countdown is over!"
+}
