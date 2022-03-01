@@ -1,4 +1,5 @@
 function revealMessage() {
+    document.getElementById("hiddenMessage").style.display = 'block';
     document.getElementById("idBgColor").style.display = 'block';
 }
 
