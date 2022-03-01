@@ -10,5 +10,5 @@ function countDown() {
 }
 
 if (newVal <= 0) {
-var newVal = "your countdown is over!"
-}
+Set (newVal = 0)
+};
