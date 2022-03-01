@@ -1,9 +1,9 @@
-function buttonpress() {
-    document.getElementById("revealedmessage").style.display = 'block';
+function revealMessage() {
+    document.getElementById("hiddenMessage").style.display = 'block';
 }
 
-function buttonpress() {
-    var currentVal = document.getElementById("countdownbutton").innerHTML;
+function countDown() {
+    var currentVal = document.getElementById("countDownButton").innerHTML;
     var newVal = currentVal - 1;
-    document.getElementById("countdownbutton").innerHTML = newVal;
+    document.getElementById("countDownButton").innerHTML = newVal;
 }

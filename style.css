@@ -1,7 +1,8 @@
         .hugesize {
-            font-size: xx-large;
+            font-size: 100;
         }
 body {
+    background-image: repeating-radial-gradient();
     background-color:darkblue;
     border-color: black;
     border-width:10px;
