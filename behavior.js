@@ -9,6 +9,7 @@ function countDown() {
     document.getElementById("countDownButton").innerHTML = newVal;
 }
 
-if (newVal <= 0) {
-Set (newVal = 0)
+if (newVal < 0) {
+const  currentVal = 0
+const newVal = 0
 };
