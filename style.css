@@ -4,5 +4,6 @@
 body {
     background-color:darkblue;
     border-color: black;
+    border-width:10px;
     color: white;
 }
