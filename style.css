@@ -2,9 +2,11 @@
             font-size: 100;
         }
 body {
-    background-image: repeating-radial-gradient();
-    background-color:darkblue;
-    border-color: black;
-    border-width:10px;
-    color: white;
-}
+    color:white;
+
+    background-color:darkslategray;
+};
+
+        .changeBgColor {
+            background-color: yellow;
+        }
