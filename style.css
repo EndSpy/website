@@ -8,5 +8,6 @@ body {
 };
 
         .changeBgColor {
+        set
             background-color: yellow;
         }
