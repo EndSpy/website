@@ -1,7 +1,8 @@
 body {
     color:white;
     background-image: url(https://media.istockphoto.com/photos/abstract-blue-background-minimal-geometric-background-for-use-in-picture-id1221025677?b=1&k=20&m=1221025677&s=170667a&w=0&h=7ifCf2jcgMPJEXQ_1VS09j3VbTq6Yu_lWUAbOnBHkDY=);
-    background-size:cover
+    background-size:cover;
+    font-size:large
 };
 
         .changeBgColor {
