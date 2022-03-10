@@ -8,3 +8,8 @@ body {
         .changeBgColor {
             background-color: yellow;
         }
+
+        .niceFont {
+            font-size: 69px;
+
+        }
