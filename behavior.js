@@ -17,7 +17,9 @@ const newVal = 0
 
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    console.log("on phone")
     document.write("on phone");
 } else {
     console.log("not on phone");
+    document.write("not")
 }
