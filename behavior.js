@@ -13,3 +13,11 @@ if (newVal < 0) {
 const  currentVal = 0
 const newVal = 0
 };
+
+
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    document.write("on phone");
+} else {
+    console.log("not on phone");
+}
