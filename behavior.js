@@ -23,3 +23,13 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     console.log("not on phone");
     document.write("not")
 }
+
+
+function myfunction() {
+    var x = document.getElementById("mytopnav");
+    if (x.className === "mytopnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
