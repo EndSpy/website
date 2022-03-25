@@ -26,6 +26,22 @@ body {
                     background-color: #ddd;
                     color: black;
                 }
+                .topnav a::before {
+                    content:'';
+                    display: block;
+                    height: 5px;
+                    width: 100%;
+                    background-color: #444;
+                
+                    position:absolute;
+                    top: 0;
+                    width: 0%;
+                    transition: all ease-in-out 250ms;
+                }
+                .topnav a:hover::before {
+                    width: 100%;
+                }
+
                 .topnav a.active {
                     background-color: #04AA6D;
                     color: white;
