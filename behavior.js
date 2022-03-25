@@ -1,6 +1,5 @@
 function revealMessage() {
     document.getElementById("hiddenMessage").style.display = 'block';
-    document.getElementById("idBgColor").style.display = 'block';
 }
 
 function countDown() {
@@ -10,7 +9,6 @@ function countDown() {
 }
 
 if (newVal < 0) {
-const  currentVal = 0
 const newVal = 0
 };
 
