@@ -20,6 +20,7 @@ body {
                     padding: 19px 22px;
                     text-decoration: none;
                     font-size: 17px;
+                    position:relative
                 }
         
                 .topnav a:hover {
@@ -33,10 +34,10 @@ body {
                     width: 100%;
                     background-color: #444;
                 
-                    position:absolute;
-                    top: 0;
+                    position:relative;
+                    top: -19;
                     width: 0%;
-                    transition: all ease-in-out 250ms;
+                    transition: all ease-in-out 350ms;
                 }
                 .topnav a:hover::before {
                     width: 100%;
