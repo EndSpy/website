@@ -45,16 +45,18 @@
     </div>
     <script>
 	
-      var loaderUrl = "code.loader.js";
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/code.loader.js";
       var config = {
-        dataUrl: "code.data",
-        frameworkUrl:  "code.framework.js",
-        codeUrl:  "code.wasm",
+        dataUrl: buildUrl + "/code.data",
+        frameworkUrl: buildUrl + "/code.framework.js",
+        codeUrl: buildUrl + "/code.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "MyFirstGame",
         productVersion: "0.1",
       };
+
 
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
