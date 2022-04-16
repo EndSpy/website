@@ -8,7 +8,7 @@ function countDown() {
     document.getElementById("countDownButton").innerHTML = newVal;
 }
 
-if (newVal < 0) {
+if (0 > newVal) {
 const newVal = 0
 };
 
