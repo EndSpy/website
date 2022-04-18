@@ -34,7 +34,7 @@ body {
                 }
         
                 .topnav a:hover {
-                    background-color: #ddd;
+                    background-color: #04AA6D;
                     color: black;
                 }
                 .topnav a::before {
