@@ -4,8 +4,9 @@ body {
     background-size:cover;
 };
                 .aboutText{
-                    font-size: 10vw;
+                    font-size: 100vw;
                     size: 100px;
+                    border: #000
                     color:whitesmoke
                 }
                 
