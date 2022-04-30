@@ -16,6 +16,7 @@ body {
                     background-color: rgb(135, 34, 148);
                     overflow: hidden;
                     font-size: 4vw;   
+                    position: relative;
                 }
                 .topnav {
                     background-color: #333;
