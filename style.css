@@ -1,13 +1,10 @@
 body {
     color:white;
-    background-image: url(https://media.istockphoto.com/photos/abstract-blue-background-minimal-geometric-background-for-use-in-picture-id1221025677?b=1&k=20&m=1221025677&s=170667a&w=0&h=7ifCf2jcgMPJEXQ_1VS09j3VbTq6Yu_lWUAbOnBHkDY=);
-    background-size:cover;
 };
                 .aboutText{
                     font-size: 100vw;
                     size: 100px;
                     border: #000
-                    color:whitesmoke
                 }
                 
 
@@ -62,4 +59,46 @@ body {
                 }
                 .topnav .icon {
                     display: none;
+                }
+
+
+
+
+                .RGBcolor {
+                    position:absolute;
+                    width: 100%;
+                    height: 98%;
+                    background-image:url(media/Background.jpg);
+                 background-repeat: no-repeat;
+                background-size: 99.2%;
+                }
+                
+                .moving-glow:before, .moving-glow:after {
+                    content: '';
+                    position: absolute;
+                    left: -2px;
+                    top: -2px;
+                    background: linear-gradient(45deg, #000000,#FFFFFF,#FF0000,#00FF00,#0000FF,#FFFF00,#00FFFF,#FF00FF,#C0C0C0,#808080,#800000,#808000,#008000,#800080,#008080,#000080);
+                    background-size: 420%;
+                    width: calc(100% + 10px);
+                    height: calc(100% + 10px);
+                    z-index: -1;
+                    animation: anim-moving-glow 50s linear infinite;
+                  
+                }
+                
+                @keyframes anim-moving-glow {
+                    0% {
+                        background-position: 0 0;
+                    }
+                    50% {
+                        background-position: 400% 0;
+                    }
+                    100% {
+                        background-position: 0 0;
+                    }
+                }
+                
+                .moving-glow:after {
+                    filter: blur(30px);
                 }
