@@ -10,3 +10,5 @@ please don't copy my code, thank you :D
 **Domain:** not setup yet
 
 **text editor:** Visual Studio Code
+  
+**Langauges:** HTML, CSS, JAVASCRIPT, C# (game)
