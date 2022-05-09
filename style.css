@@ -7,6 +7,10 @@
                     font-size: 4vw;   
                     position: relative;
                 }
+                .aboutText {
+                  font-size: 1000px;
+                  /* huge number just for testing*/
+                }
 
                 
                 .topnav {
