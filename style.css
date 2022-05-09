@@ -11,6 +11,10 @@
                   font-size: 1.625em;   /* 1em = 16px, 1.625em = 26px*/
                 }
 
+                .myworkStyle {
+                  font-size: 1.25em; /*1.25em = 20px*/
+                }
+
                 
                 .topnav {
                     overflow: hidden;
