@@ -8,8 +8,7 @@
                     position: relative;
                 }
                 .aboutText {
-                  font-size: 1000px;
-                  /* huge number just for testing*/
+                  font-size: 1.625em;   /* 1em = 16px, 1.625em = 26px*/
                 }
 
                 
