@@ -24,6 +24,7 @@
                 background-color: navy;
                 font-size: 0.5m;
                 color: #00FFFF;
+                float: right;
                 }
                 .topnav {
                     overflow: hidden;
