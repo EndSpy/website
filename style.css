@@ -5,6 +5,11 @@
 
                 .myworkStyle {
                   font-size: 1.25em; /*1.25em = 20px*/
+                  
+                }
+                .egyptFlag {
+                  width: 42px;
+                  hight: auto;
                 }
 
 
