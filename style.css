@@ -9,6 +9,7 @@
                 }
                 .aboutText {
                   font-size: 1.4375em;   /* 1em = 16px, 1.4375em = 23px*/
+                  color: #00FFFF; /*white*/
                 }
 
                 .myworkStyle {
