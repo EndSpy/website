@@ -26,6 +26,16 @@
                 color: #00FFFF;
                 float: right;
                 }
+                
+                .menuDropdown {
+                    width: 5vw;
+                    padding: 7px;
+                    background-color: navy;
+                    font-size: 0.35m;
+                    color: #00FFFF;
+                    float: right;
+                }
+
                 .topnav {
                     overflow: hidden;
                 }
