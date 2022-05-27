@@ -24,6 +24,7 @@
                     overflow: hidden;
                     font-size: 4vw;   
                     position: relative;
+                    outline: #000000;
                 }
 
                 .menu {
