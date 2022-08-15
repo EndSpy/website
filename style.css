@@ -7,10 +7,14 @@
                   font-size: 1.25em; /*1.25em = 20px*/
                   color: #00FFFF; /*white*/
                   
-                }
+                }         
+
                 .egyptFlag {
-                  width: 35%;
+                    width: 25%;
+                    float: left; 
+                    clear:both
                 }
+
                 .codingImage {
                     width: 39%;    
                 }
@@ -50,6 +54,12 @@
                     float: right;
                 }
 
+
+
+
+
+
+
                 .topnav {
                     overflow: hidden;
                 }
@@ -68,6 +78,7 @@
                 .topnav a:hover {
                     color: gray;
                 }
+
                 .topnav a::before {
                     
                     content:'';
@@ -81,6 +92,7 @@
                     width: 0%;
                     transition: all ease-in-out 350ms;
                 }
+
                 .topnav a:hover::before {
                     width: 100%;
                 }
@@ -88,9 +100,11 @@
                 .topnav a.active {
                     color: gray;                
                 }
+
                 .topnav a.active::before {
                     width: 100%;
                 }
+
                 .topnav .icon {
                     display: none;
                 }
