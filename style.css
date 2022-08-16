@@ -18,7 +18,11 @@
                 .codingImage {
                     width: 39%;    
                 }
-
+                .minecraftImage {
+                    float: right;
+                    margin:-4.1% 1.9%;
+                    width: 25%;
+                }
 
 
 
