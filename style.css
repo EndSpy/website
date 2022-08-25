@@ -8,6 +8,16 @@
                   color: #00FFFF; /*white*/
                   
                 }         
+                .myWork1 {
+                    float: left;
+                    font-size: 	1.5625em; /*	25px = 1.5625em*/
+                    color: #00FFFF; /*white*/
+                }
+                .myWork1-5 {
+                    float: left;
+                    font-size: 1.25em; /*1.25em = 20px*/
+                    color: #00FFFF; /*white*/
+                }
 
                 .egyptFlag {
                     width: 25%;
