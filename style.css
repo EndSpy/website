@@ -12,6 +12,9 @@
                     float: left;
                     font-size: 	1.5625em; /*	25px = 1.5625em*/
                     color: #00FFFF; /*white*/
+                text-decoration:underline;
+                text-shadow: white;
+                font-weight: bold;
                 }
                 .myWork1-5 {
                     float: left;
