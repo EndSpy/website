@@ -4,9 +4,10 @@
                 }
 
                 .myworkStyle {
-                  font-size: 1.25em; /*1.25em = 20px*/
+                  font-size: 2em; /*2em = 32px*/
                   color: #00FFFF; /*white*/
-                  
+                  font-weight: bolder;
+
                 }         
                 .myWork1 {
                     float: left;
