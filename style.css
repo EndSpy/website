@@ -1,170 +1,216 @@
-                .aboutText {
-                  font-size: 1.2500em;   /* 1em = 16px, 1.2500em = 20px*/
-                  color: #00FFFF; /*white*/
-                }
+.aboutText {
+    font-size: 1.2500em;   /* 1em = 16px, 1.2500em = 20px*/
+    color: #00FFFF; /*white*/
+  }
 
-                .myworkStyle {
-                  font-size: 2em; /*2em = 32px*/
-                  color: #00FFFF; /*white*/
-                  font-weight: bolder;
+  .myworkStyle {
+    font-size: 2em; /*2em = 32px*/
+    color: #00FFFF; /*white*/
+    font-weight: bolder;
 
-                }         
-                .myWork1 {
-                    float: left;
-                    font-size: 	1.5625em; /*	25px = 1.5625em*/
-                    color: #00FFFF; /*white*/
-                text-decoration:underline;
-                text-shadow: white;
-                font-weight: bold;
-                }
-                .myWork1-5 {
-                    float: left;
-                    font-size: 1.25em; /*1.25em = 20px*/
-                    color: #00FFFF; /*white*/
-                }
+  }         
+  .myWork1 {
+      float: left;
+      font-size: 	1.5625em; /*	25px = 1.5625em*/
+      color: #00FFFF; /*white*/
+  text-decoration:underline;
+  text-shadow: white;
+  font-weight: bold;
+  }
 
-                .egyptFlag {
-                    width: 25%;
-                    float: left; 
-                    clear:both
-                }
+  .myWork1-5 {
+      float: left;
+      font-size: 1.25em; /*1.25em = 20px*/
+      color: #00FFFF; /*white*/
+  }
 
-                .codingImage {
-                    width: 39%;    
-                }
-                .minecraftImage {
-                    float: right;
-                    margin:-.5% 1.9%;
-                    width: 25%;
-                }
+  .egyptFlag {
+      width: 25%;
+      float: left; 
+      clear:both
+  }
 
+  .codingImage {
+      width: 39%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
 
-
-                .github {
-                    border:thick;
-                    border-style: solid;
-                    width: 15vw;
-                    padding: 10px;
-                    margin: -3.9% 1%;
-                    background-color: rgb(135, 34, 148);
-                    overflow: hidden;
-                    font-size: 4vw;   
-                    position: relative;
-                    outline: #000000;
-                }
-
-                .menu {
-                width: 7vw;
-                padding: 10px;
-                background-color: navy;
-                font-size: 0.5m;
-                color: #00FFFF;
-                float: right;
-                margin: 1%
-                }
-                
-                .menuDropdown {
-                    width: 5vw;
-                    padding: 7px;
-                    background-color: navy;
-                    font-size: 0.35m;
-                    color: #00FFFF;
-                    float: right;
-                }
-
-
-
+  .minecraftImage {
+      float: right;
+      margin:-.5% 1.9%;
+      width: 25%;
+  }
+  .footertitle {
+      position: relative;
+      text-align: center;
+      font-size: 4vw;
+  
+  }
+  .page2 {
+      background-color:#008080;
+      background-size: 99.9%;
+      position: relative;
+      
+  }
+  .page3 {
+      background-color: #000000;
+      background-size: 120%;
+      margin: 10 -10;
+      color:white;
+      position:absolute
+  }
+  .text2 {
+      position: absolute;
+      text-align: center;
+      text-shadow: #000000;
+      font-size: 2vw;
+  }
+  .social {
+      margin: -28;
+      text-align: center;
+      scale: 250%;
+  }
 
 
 
 
-                .topnav {
-                    overflow: hidden;
-                }
-        
-                .topnav a {
-                    float: left;
-                    display: block;
-                    color: #f2f2f2;
-                    text-align: center;
-                    padding: 25px 42px;
-                    text-decoration: none;
-                    font-size: 17px;
-                    position:relative
-                }
-        
-                .topnav a:hover {
-                    color: gray;
-                }
 
-                .topnav a::before {
-                    
-                    content:'';
-                    display: block;
-                    height: 7px;
-                    width: 0%;
-                    background-color: #444;
-                
-                    position:relative;
-                    top: -15;
-                    width: 0%;
-                    transition: all ease-in-out 350ms;
-                }
+  .github {
+      border:thick;
+      border-style: solid;
+      width: 14vw;
+      height: 6vw;
+      padding: 10px;
+      margin: -2.2% 0%;
+      background-color: rgb(135, 34, 148);
+      overflow: hidden;
+      font-size: 4vw;   
+      position:fixed;
+      bottom:63;
+      float: left;
+      
 
-                .topnav a:hover::before {
-                    width: 100%;
-                }
+      outline: #000000;
+  }
 
-                .topnav a.active {
-                    color: gray;                
-                }
-
-                .topnav a.active::before {
-                    width: 100%;
-                }
-
-                .topnav .icon {
-                    display: none;
-                }
+  .menu {
+  width: 7vw;
+  padding: 10px;
+  background-color: navy;
+  font-size: 0.5m;
+  color: #00FFFF;
+  float: right;
+  margin: 1%
+  }
+  
+  .menuDropdown {
+      width: 5vw;
+      padding: 7px;
+      background-color: navy;
+      font-size: 0.35m;
+      color: #00FFFF;
+      float: right;
+  }
 
 
 
 
-                .RGBcolor {
-                    position:absolute;
-                    width: 100%;
-                    height: 98%;
-                    background-image:url(media/Background.png);
-                 background-repeat: no-repeat;
-                background-size: 99.2%;
-                }
-                
-                .moving-glow:before, .moving-glow:after {
-                    content: '';
-                    position: absolute;
-                    left: -2px;
-                    top: -2px;
-                    background: linear-gradient(45deg, #000000,#FFFFFF,#FF0000,#00FF00,#0000FF,#FFFF00,#00FFFF,#FF00FF,#C0C0C0,#808080,#800000,#808000,#008000,#800080,#008080,#000080);
-                    background-size: 420%;
-                    width: calc(100% + 10px);
-                    height: calc(100% + 10px);
-                    z-index: -1;
-                    animation: anim-moving-glow 50s linear infinite;
-                  
-                }
-                
-                @keyframes anim-moving-glow {
-                    0% {
-                        background-position: 0 0;
-                    }
-                    50% {
-                        background-position: 400% 0;
-                    }
-                    100% {
-                        background-position: 0 0;
-                    }
-                }
-                
-                .moving-glow:after {
-                    filter: blur(30px);
-                }
+
+
+
+  .topnav {
+      overflow: hidden;
+  }
+
+  .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 25px 42px;
+      text-decoration: none;
+      font-size: 17px;
+      position:relative
+  }
+
+  .topnav a:hover {
+      color: gray;
+  }
+
+  .topnav a::before {
+      
+      content:'';
+      display: block;
+      height: 7px;
+      width: 0%;
+      background-color: #444;
+  
+      position:relative;
+      top: -15;
+      width: 0%;
+      transition: all ease-in-out 350ms;
+  }
+
+  .topnav a:hover::before {
+      width: 100%;
+  }
+
+  .topnav a.active {
+      color: gray;                
+  }
+
+  .topnav a.active::before {
+      width: 100%;
+  }
+
+  .topnav .icon {
+      display: none;
+  }
+
+
+
+
+
+
+  .RGBcolor {
+                          position:relative;
+      width: 100%;
+      height: 98%;
+      background-image:url(https://techwireasia.com/wp-content/uploads/2022/07/shutterstock_2006340497-scaled.jpg);
+      background-repeat: no-repeat;
+      display:no-repeat;
+  background-size: 99.9%;
+  }
+
+  
+  .moving-glow:before, .moving-glow:after {
+      content: '';
+      position:absolute;
+      left: -2px;
+      top: -2px;
+      background: linear-gradient(45deg, #000000,#FFFFFF,#FF0000,#00FF00,#0000FF,#FFFF00,#00FFFF,#FF00FF,#C0C0C0,#808080,#800000,#808000,#008000,#800080,#008080,#000080);
+      background-size: 420%;
+      width: calc(100% + 10px);
+      height: calc(203% + 10px);
+      z-index: -1;
+      animation: anim-moving-glow 50s linear infinite;
+    
+  }
+  
+  @keyframes anim-moving-glow {
+      0% {
+          background-position: 0 0;
+      }
+      50% {
+          background-position: 400% 0;
+      }
+      100% {
+          background-position: 0 0;
+      }
+  }
+  
+  .moving-glow:after {
+      filter: blur(30px);
+  }
