@@ -8,7 +8,8 @@
     color: #00FFFF; /*white*/
     font-weight: bolder;
 
-  }         
+  }
+
   .myWork1 {
       float: left;
       font-size: 	1.5625em; /*	25px = 1.5625em*/
@@ -23,6 +24,49 @@
       font-size: 1.25em; /*1.25em = 20px*/
       color: #00FFFF; /*white*/
   }
+
+
+
+  
+
+
+
+
+  .footertitle {
+    position: relative;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.page2 {
+    background-color:#008080;
+    background-size: 99.9%;
+    position: relative;
+}
+
+.page3 {
+    background-color: #000000;
+    background-size: 120%;
+    margin: 10 -10;
+    color:white;
+    position:absolute
+}
+
+.text2 {
+    position: absolute;
+    text-align: center;
+    text-shadow: #000000;
+    font-size: 2vw;
+}
+
+.social {
+    margin: -28;
+    text-align: center;
+    scale: 250%;
+}
+
+
+
 
   .egyptFlag {
       width: 25%;
@@ -41,36 +85,6 @@
       float: right;
       margin:-.5% 1.9%;
       width: 25%;
-  }
-  .footertitle {
-      position: relative;
-      text-align: center;
-      font-size: 4vw;
-  
-  }
-  .page2 {
-      background-color:#008080;
-      background-size: 99.9%;
-      position: relative;
-      
-  }
-  .page3 {
-      background-color: #000000;
-      background-size: 120%;
-      margin: 10 -10;
-      color:white;
-      position:absolute
-  }
-  .text2 {
-      position: absolute;
-      text-align: center;
-      text-shadow: #000000;
-      font-size: 2vw;
-  }
-  .social {
-      margin: -28;
-      text-align: center;
-      scale: 250%;
   }
 
 
@@ -178,12 +192,14 @@
                           position:relative;
       width: 100%;
       height: 98%;
-      background-image:url(https://techwireasia.com/wp-content/uploads/2022/07/shutterstock_2006340497-scaled.jpg);
       background-repeat: no-repeat;
       display:no-repeat;
   background-size: 99.9%;
   }
+.background {
+    background-image:url(https://techwireasia.com/wp-content/uploads/2022/07/shutterstock_2006340497-scaled.jpg);
 
+}
   
   .moving-glow:before, .moving-glow:after {
       content: '';
