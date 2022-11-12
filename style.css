@@ -200,6 +200,11 @@
     background-image:url(https://techwireasia.com/wp-content/uploads/2022/07/shutterstock_2006340497-scaled.jpg);
 
 }
+
+.background2 {
+    background-image:url(media/Background.png);
+
+}
   
   .moving-glow:before, .moving-glow:after {
       content: '';
