@@ -189,7 +189,7 @@
 
 
   .RGBcolor {
-                          position:relative;
+                          
       width: 100%;
       height: 98%;
       background-repeat: no-repeat;
@@ -198,12 +198,12 @@
   }
 .background {
     background-image:url(https://techwireasia.com/wp-content/uploads/2022/07/shutterstock_2006340497-scaled.jpg);
-
+    position:relative;
 }
 
 .background2 {
     background-image:url(media/Background.png);
-
+    position:absolute;
 }
   
   .moving-glow:before, .moving-glow:after {
