@@ -25,9 +25,19 @@
       color: #00FFFF; /*white*/
   }
 
-
+  .myWork2 {
+    float: right;
+    font-size: 1.25em; /*1.25em = 20px*/
+    color: #00FFFF; /*white*/
+}
 
   
+.myWork2-5 {
+    float: right;
+    font-size: 1.25em; /*1.25em = 20px*/
+    color: #00FFFF; /*white*/
+}
+
 
 
 
