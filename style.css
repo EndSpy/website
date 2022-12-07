@@ -1,4 +1,8 @@
-.aboutText {
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+  .aboutText {
     font-size: 1.2500em;   /* 1em = 16px, 1.2500em = 20px*/
     color: #00FFFF; /*white*/
   }
@@ -58,7 +62,7 @@
 .page3 {
     background-color: #000000;
     background-size: 120%;
-    margin: 10 -10;
+    margin: 0 0;
     color:white;
     position:absolute
 }
