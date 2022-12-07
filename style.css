@@ -8,42 +8,51 @@ html, body {
   }
 
   .myworkStyle {
-    font-size: 2em; /*2em = 32px*/
+    font-size: 4em; /*2em = 32px*/
     color: #00FFFF; /*white*/
     font-weight: bolder;
 
   }
 
   .myWork1 {
+    margin: 0;
+    padding: 0 10;
       float: left;
-      font-size: 	1.5625em; /*	25px = 1.5625em*/
+      font-size: 	3em; /*	25px = 1.5625em*/
       color: #00FFFF; /*white*/
-  text-decoration:underline;
+  text-decoration:wavy;
   text-shadow: white;
-  font-weight: bold;
-  position: relative;
+  font-weight:bold;
+  position:absolute;
   }
 
   .myWork1-5 {
-    padding: 0;
-    margin: 0;
+    padding: 0 10;
       float: left;
-      font-size: 1.25em; /*1.25em = 20px*/
+      font-size: 1.70em; /*1.25em = 20px*/
       color: #00FFFF; /*white*/
-  }
+line-height: 50px;
+    }
 
   .myWork2 {
-    margin: 0;
+    text-decoration:wavy;
+    text-shadow: white;
+    font-weight: bold;
+    
+  
+    margin: 0 10;
     padding: 0;
     float: right;
-    font-size: 1.25em; /*1.25em = 20px*/
+    font-size: 	3em; /*	25px = 1.5625em*/
     color: #00FFFF; /*white*/
 }
 
   
 .myWork2-5 {
+    line-height: 50px;
+    padding: 0 10;
     float: right;
-    font-size: 1.25em; /*1.25em = 20px*/
+    font-size: 1.70em; /*1.25em = 20px*/
     color: #00FFFF; /*white*/
 }
 
