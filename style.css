@@ -25,6 +25,8 @@ html, body {
   }
 
   .myWork1-5 {
+    padding: 0;
+    margin: 0;
       float: left;
       font-size: 1.25em; /*1.25em = 20px*/
       color: #00FFFF; /*white*/
