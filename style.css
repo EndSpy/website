@@ -66,6 +66,15 @@ line-height: 50px;
     font-size: 4vw;
 }
 
+
+
+
+.text1 {
+    font-size: 1.75vw; 
+    color: white;
+     font-style: oblique;
+}
+
 .page2 {
     background-color:#008080;
     background-size: 99.9%;
