@@ -119,16 +119,20 @@ line-height: 50px;
 
 
 
-  .github {
-      border:thick;
+  .sourceCode {
+    font-family:Rockwell;
+      border:0.3vw;
+      border-color: #000000;
+      color: white;
       border-style: solid;
-      width: 14vw;
-      height: 6vw;
+      width: 15vw;
+      height: 5vw;
       padding: 0px;
-      margin: -2.2% 0%;
-      background-color: rgb(135, 34, 148);
-      overflow: hidden;
-      font-size: 4vw;   
+      margin: -3.2% 0%;
+      background-color:#444;
+      box-shadow: white;
+      overflow:hidden;
+      font-size: 2.309vw;   
       position:fixed;
       bottom:63;
       float: left;
@@ -136,7 +140,6 @@ line-height: 50px;
 
       outline: #000000;
   }
-
   .menu {
   width: 7vw;
   padding: 10px;
