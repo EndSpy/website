@@ -60,12 +60,12 @@ line-height: 50px;
 
 
 
-  .footertitle {
+.footerTitle {
     position: relative;
     text-align: center;
     font-size: 4vw;
-}
-
+margin: -0.001vw -100;
+  }
 
 
 
