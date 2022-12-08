@@ -170,6 +170,11 @@ line-height: 50px;
       overflow: hidden;
   }
 
+  .topnav a.topBarStyle {
+    font-size: 1.19vw;
+    font-family:Rockwell
+}
+
   .topnav a {
       float: left;
       display: block;
