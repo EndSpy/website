@@ -204,7 +204,10 @@ line-height: 50px;
   }
 
   .topnav a.active {
-      color: gray;                
+    font-size: 1.19vw;
+    font-family:Rockwell;
+      
+      color: gray;
   }
 
   .topnav a.active::before {
