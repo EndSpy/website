@@ -78,7 +78,7 @@ margin: -0.001vw 0;
 .page2 {
     background-color:#008080;
     background-size: 99.9%;
-    position: relative;
+    position: absolute;
 }
 
 .page3 {
