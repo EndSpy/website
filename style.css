@@ -140,14 +140,15 @@ line-height: 50px;
 
       outline: #000000;
   }
-  .menu {
+  .Menu {
+    font-family:Rockwell;
   width: 7vw;
   padding: 10px;
   background-color: navy;
-  font-size: 0.5m;
+  font-size: .8vw;
   color: #00FFFF;
   float: right;
-  margin: 1%
+  margin: 10 10
   }
   
   .menuDropdown {
