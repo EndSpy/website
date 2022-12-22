@@ -319,7 +319,7 @@ margin: -0.001vw 0;
   }
 
   .topnav a:hover {
-      color: #F13A13;
+      color: #52E01A;
   }
 
   .topnav a::before {
@@ -344,7 +344,7 @@ margin: -0.001vw 0;
     font-size: 1.19vw;
     font-family:Rockwell;
       
-      color: #F13A13;
+      color: #52E01A;
   }
 
   .topnav a.active::before {
