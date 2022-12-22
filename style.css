@@ -6,12 +6,11 @@ html, body {
     font-size: 1.2500em;   /* 1em = 16px, 1.2500em = 20px*/
     color: #00FFFF; /*white*/
   }
-
-  .myworkStyle {
+  .myworkTitle {
+    
     font-size: 4em; /*2em = 32px*/
-    color: #00FFFF; /*white*/
+    color: fff; /*white*/
     font-weight: bolder;
-
   }
 
   .myWork1 {
@@ -19,9 +18,9 @@ html, body {
     padding: 0 10;
       float: left;
       font-size: 	3em; /*	25px = 1.5625em*/
-      color: #00FFFF; /*white*/
+      color: fff; /*white*/
   text-decoration:wavy;
-  text-shadow: white;
+  text-shadow: #fff;
   font-weight:bold;
   position:absolute;
   }
@@ -30,13 +29,13 @@ html, body {
     padding: 0 10;
       float: left;
       font-size: 1.70em; /*1.25em = 20px*/
-      color: #00FFFF; /*white*/
+      color: #fff; /*white*/
 line-height: 50px;
     }
 
   .myWork2 {
     text-decoration:wavy;
-    text-shadow: white;
+    text-shadow: fff;
     font-weight: bold;
     
   
@@ -44,7 +43,7 @@ line-height: 50px;
     padding: 0;
     float: right;
     font-size: 	3em; /*	25px = 1.5625em*/
-    color: #00FFFF; /*white*/
+    color: #fff; /*white*/
 }
 
   
@@ -53,7 +52,8 @@ line-height: 50px;
     padding: 0 10;
     float: right;
     font-size: 1.70em; /*1.25em = 20px*/
-    color: #00FFFF; /*white*/
+    color: #fff; /*white*/
+    text-align: left;
 }
 
 
@@ -124,7 +124,7 @@ margin: -0.001vw 0;
       text-align: center;
   }
 
-  .gamingImage {
+  .minecraftImage {
       float: right;
       margin:-.5% 1.9%;
       width: 25%;
@@ -261,6 +261,13 @@ margin: -0.001vw 0;
 .background3 {
   background-image: url(media/contactBackground.jpg);
   position:relative;
+  background-size: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.myworkBackground {
+  background-color: white;
   background-size: 100%;
   height: 100%;
   background-repeat: no-repeat;
