@@ -68,3 +68,26 @@ body:before {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+.aboutText {
+  font-size: 1.2500em;   /* 1em = 16px, 1.2500em = 20px*/
+  color: #00FFFF; /*white*/
+}
+
+.egyptFlag {
+    width: 25%;
+    float: left; 
+    clear:both
+}
+
+
+.minecraftImage {
+    float: right;
+    margin:-.5% 1.9%;
+    width: 25%;
+}
