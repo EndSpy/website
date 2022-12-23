@@ -18,3 +18,12 @@
           .nameText {
             color:white
           }
+
+          .background2 {
+            background-image:url(media/Background.png);
+            position:relative;
+            background-size: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+        }
+        
