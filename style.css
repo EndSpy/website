@@ -24,34 +24,6 @@ margin: -0.001vw 0;
 
 
 
-.text1 {
-    font-size: 1.9vw; 
-    color: white;
-     font-style: oblique;
-}
-
-.page2 {
-    background-color:#008080;
-    background-size: 99.9%;
-    position: relative;
-}
-
-.page3 {
-    background-color: #000000;
-    background-size: 120%;
-    margin: 0 0;
-    color:white;
-    position:absolute
-}
-
-.text2 {
-    position: absolute;
-    text-align: center;
-    text-shadow: #000000;
-    font-size: 1.75vw; 
-    color: white;
-    font-style: oblique;
-}
 
 .social {
     margin: -28;
@@ -72,12 +44,6 @@ margin: -0.001vw 0;
       clear:both
   }
 
-  .codingImage {
-      width: 39%;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-  }
 
   .minecraftImage {
       float: right;
@@ -89,46 +55,6 @@ margin: -0.001vw 0;
 
 
 
-  .sourceCode {
-    font-family:Rockwell;
-      border:0.3vw;
-      border-color: #000000;
-      color: white;
-      border-style: solid;
-      width: 15vw;
-      height: 5vw;
-      padding: 0px;
-      margin: -3.2% 0%;
-      background-color:#444;
-      box-shadow: white;
-      overflow:hidden;
-      font-size: 2.309vw;   
-      position:fixed;
-      bottom:63;
-      float: left;
-      
-
-      outline: #000000;
-  }
-  .Menu {
-    font-family:Rockwell;
-  width: 7vw;
-  padding: 10px;
-  background-color: navy;
-  font-size: 1.01vw;
-  color: #00FFFF;
-  float: right;
-  margin: 10 10
-  }
-  
-  .menuDropdown {
-      width: 5vw;
-      padding: 7px;
-      background-color: navy;
-      font-size: 0.35m;
-      color: #00FFFF;
-      float: right;
-  }
 
 
 
@@ -196,14 +122,6 @@ margin: -0.001vw 0;
 
 
 
-
-
- 
- .background {
-    background-image:url(https://techwireasia.com/wp-content/uploads/2022/07/shutterstock_2006340497-scaled.jpg);
-    background-size: 100%;
-    height: 100%;
-}
 
 
 .background3 {
