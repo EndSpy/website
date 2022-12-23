@@ -5,38 +5,73 @@ html, body {
 
 
 
+  .topnav {
+    overflow: hidden;
+}
+
+.topnav a.topBarStyle {
+  font-size: 1.19vw;
+  font-family:Rockwell
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 42px;
+    text-decoration: none;
+    font-size: 17px;
+    position:relative
+}
+
+.topnav a:hover {
+    color: #52E01A;
+}
+
+.topnav a::before {
+    
+    content:'';
+    display: block;
+    height: 7px;
+    width: 0%;
+    background-color: #444;
+
+    position:relative;
+    top: -15;
+    width: 0%;
+    transition: all ease-in-out 350ms;
+}
+
+.topnav a:hover::before {
+    width: 100%;
+}
+
+.topnav a.active {
+  font-size: 1.19vw;
+  font-family:Rockwell;
+    
+    color: #52E01A;
+}
+
+.topnav a.active::before {
+    width: 100%;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+
+
+
 
   .aboutText {
     font-size: 1.2500em;   /* 1em = 16px, 1.2500em = 20px*/
     color: #00FFFF; /*white*/
   }
-
-
-
-
-
-.footerTitle {
-    position: relative;
-    text-align: center;
-    font-size: 4vw;
-margin: -0.001vw 0;
-  }
-
-
-
-
-.social {
-    margin: -28;
-    text-align: center;
-    scale: 97%;
-}
-
-.socialStyle {
-    font-size: 250%;
-}
-
-
-
 
   .egyptFlag {
       width: 25%;
@@ -54,81 +89,34 @@ margin: -0.001vw 0;
 
 
 
-
-
-
-
-
-
-
-
-  .topnav {
-      overflow: hidden;
-  }
-
-  .topnav a.topBarStyle {
-    font-size: 1.19vw;
-    font-family:Rockwell
-}
-
-  .topnav a {
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 25px 42px;
-      text-decoration: none;
-      font-size: 17px;
-      position:relative
-  }
-
-  .topnav a:hover {
-      color: #52E01A;
-  }
-
-  .topnav a::before {
-      
-      content:'';
-      display: block;
-      height: 7px;
-      width: 0%;
-      background-color: #444;
-  
-      position:relative;
-      top: -15;
-      width: 0%;
-      transition: all ease-in-out 350ms;
-  }
-
-  .topnav a:hover::before {
-      width: 100%;
-  }
-
-  .topnav a.active {
-    font-size: 1.19vw;
-    font-family:Rockwell;
-      
-      color: #52E01A;
-  }
-
-  .topnav a.active::before {
-      width: 100%;
-  }
-
-  .topnav .icon {
-      display: none;
-  }
-
-
-
-
-
-
 .background3 {
   background-image: url(media/contactBackground.jpg);
   position:relative;
   background-size: 100%;
   height: 100%;
   background-repeat: no-repeat;
+}
+
+
+
+
+.footerTitle {
+  position: relative;
+  text-align: center;
+  font-size: 4vw;
+margin: -0.001vw 0;
+}
+
+
+
+
+.social {
+  margin: -28;
+  text-align: center;
+  scale: 97%;
+}
+
+.socialStyle {
+  font-size: 250%;
 }
 
