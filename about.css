@@ -19,11 +19,13 @@ body:after, body:before {
 }
 
 body:after {
-  left: 15vw;
+  left: 
+    15vw;
 }
 
 body:before {
-  right: 15vw;
+  right: 
+    15vw;
   -webkit-animation-delay: -30s;
           animation-delay: -30s;
   animation-direction: reverse;
@@ -80,14 +82,21 @@ body:before {
 }
 
 .egyptFlag {
-    width: 25%;
-    float: left; 
-    clear:both
+    width: 
+      100%;
+  Height:
+    50%
+    float: 
+    left; 
+    
+  clear:
+    both
 }
 
 
 .minecraftImage {
     float: right;
     margin:-.5% 1.9%;
-    width: 25%;
+    width: 
+      100%;
 }
