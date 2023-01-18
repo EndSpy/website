@@ -17,7 +17,7 @@
 
 
 .text1 {
-    font-size: 1.9vw; 
+    font-size: 27pt; 
     color: white;
      font-style: oblique;
 }
@@ -26,7 +26,7 @@
     position: absolute;
     text-align: center;
     text-shadow: #000000;
-    font-size: 1.75vw; 
+    font-size: 25pt; 
     color: white;
     font-style: oblique;
 }
@@ -75,7 +75,7 @@
   
   .Menu {
     font-family:Rockwell;
-  width: 7vw;
+  width: 134.4pt;
   padding: 10px;
   background-color: navy;
   font-size: 1.01vw;
@@ -85,7 +85,7 @@
   }
   
   .menuDropdown {
-      width: 5vw;
+      width: 96pt;
       padding: 7px;
       background-color: navy;
       font-size: 0.35m;
