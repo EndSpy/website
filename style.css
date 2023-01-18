@@ -10,8 +10,8 @@ html, body {
 }
 
 .topnav a.topBarStyle {
-  font-size: 23px;
-  font-family:Rockwell
+  font-size: 1.19vw;
+    font-family:Rockwell
 }
 
 .topnav a {
@@ -21,7 +21,7 @@ html, body {
     text-align: center;
     padding: 25px 42px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.19vw;
     position:relative
 }
 
