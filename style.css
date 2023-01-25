@@ -91,7 +91,7 @@ margin: -0.001vw 0;
     background-size: 120%;
     margin: 0 0;
     color:white;
-    position:absolute
+    position:fixed
   bottom: 0;
 }
 
