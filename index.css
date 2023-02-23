@@ -57,7 +57,14 @@
 
 
 
-
+/*Responsive tablets size*/ 
+      @media (max-width: 800px) {
+.sourcecode {
+        width: 35%;
+      height: 10%;
+  font-size:35px
+}
+      }
 
 .sourceCode {
     font-family:Rockwell;
@@ -65,8 +72,7 @@
       border-color: #000000;
       color: white;
       border-style: solid;
-      width: 15vw;
-      height: 5vw;
+
       padding: 0px;
       margin: -3.2% 0%;
       background-color:#444;
