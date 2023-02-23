@@ -52,7 +52,19 @@ html, body {
 
       .topnav a {
            padding: 10px 4px;
-          font-size:106%;
+          font-size:104%;
+        height:80;
+        }
+      }
+
+
+
+/*Responsive very Narrow phones size*/ 
+      @media (max-width: 368px) {
+
+      .topnav a {
+           padding: 10px 2px;
+          font-size:95%;
         height:80;
         }
       }
