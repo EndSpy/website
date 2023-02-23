@@ -57,6 +57,17 @@
 
 
 
+/*Responsive computer size*/ 
+      @media (min-width: 800px) {
+.sourcecode {
+        width: 15%;
+      height: 10%;
+  font-size:35px
+}
+      }
+
+
+
 /*Responsive tablets size*/ 
       @media (max-width: 800px) {
 .sourcecode {
@@ -65,6 +76,8 @@
   font-size:35px
 }
       }
+
+
 
 .sourceCode {
     font-family:Rockwell;
