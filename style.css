@@ -37,6 +37,17 @@ html, body {
 
 
 
+
+      @media (max-width: 400px) {
+        .s {
+          display: block;
+        }
+      .topnav a {
+            padding: 5px 0px;
+        }
+      }
+
+
 .topnav a {
     float: left;
     display: block;
