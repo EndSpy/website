@@ -16,7 +16,7 @@ html, body {
 
 
 
-
+//Responsive computer size
       @media (min-width: 800px) {
         .s {
           display: block;
@@ -39,7 +39,7 @@ html, body {
       }
 
 
-
+//Responsive phone size
       @media (max-width: 500px) {
         .s {
           display: block;
@@ -51,7 +51,7 @@ html, body {
 
 
 
-//Narrow phones 
+//Responsive Narrow phones size 
       @media (max-width: 400px) {
         .s {
           display: block;
