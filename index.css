@@ -22,6 +22,14 @@
 
       }
 
+/*Responsive tablet size*/
+      @media (max-width: 800px) {
+
+.text1 {
+    font-size: 150%; 
+}
+
+
 
 .text1 {
     color: white;
