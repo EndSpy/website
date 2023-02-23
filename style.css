@@ -14,12 +14,22 @@ html, body {
     font-family:Rockwell;
 }
 
+
+      @media (min-width: 800px) {
+        .s {
+          display: block;
+        }
+      .topnav a {
+            padding: 25px 42px;
+        }
+      }
+
+
 .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 25px 42px;
     text-decoration: none;
     font-size: 1.19vw;
     position:relative;
