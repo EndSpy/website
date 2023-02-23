@@ -15,12 +15,26 @@ html, body {
 }
 
 
+
+
       @media (min-width: 800px) {
         .s {
           display: block;
         }
-      .topnav a {
+      .topnav a {   
             padding: 25px 42px;
+        }
+      }
+
+
+
+//Responsive tablet size
+      @media (max-width: 800px) {
+        .s {
+          display: block;
+        }
+      .topnav a {
+            padding: 15px 12px;
         }
       }
 
