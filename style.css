@@ -22,7 +22,7 @@ html, body {
     padding: 25px 42px;
     text-decoration: none;
     font-size: 1.19vw;
-    position:relative
+    position:relative;
 }
 
 .topnav a:hover {
