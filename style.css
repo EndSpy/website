@@ -18,10 +18,8 @@ html, body {
 
 /*Responsive computer size*/
       @media (min-width: 800px) {
-        .s {
-          display: block;
-        }
-      .topnav a {   
+
+          .topnav a {   
             padding: 25px 42px;
         }
       }
@@ -30,9 +28,7 @@ html, body {
 
 /*Responsive tablet size*/
       @media (max-width: 800px) {
-        .s {
-          display: block;
-        }
+
       .topnav a {
             padding: 15px 12px;
         }
@@ -41,10 +37,8 @@ html, body {
 
 /*Responsive phone size*/
       @media (max-width: 500px) {
-        .s {
-          display: block;
-        }
-      .topnav a {
+
+          .topnav a {
             padding: 10px 2px;
         }
       }
@@ -53,9 +47,7 @@ html, body {
 
 /*Responsive Narrow phones size*/ 
       @media (max-width: 400px) {
-        .s {
-          display: block;
-        }
+
       .topnav a {
             padding: 10px 1px;
         }
