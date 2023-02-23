@@ -37,13 +37,13 @@ html, body {
 
 
 
-
+//Narrow phones 
       @media (max-width: 400px) {
         .s {
           display: block;
         }
       .topnav a {
-            padding: 5px 0px;
+            padding: 10px 1px;
         }
       }
 
