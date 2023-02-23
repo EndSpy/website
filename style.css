@@ -10,7 +10,6 @@ html, body {
 }
 
 .topnav a.topBarStyle {
-  font-size: 120%;
     font-family:Rockwell;
 }
 
@@ -19,8 +18,9 @@ html, body {
 /*Responsive computer size*/
       @media (min-width: 800px) {
 
-          .topnav a {   
-            padding: 25px 42px;
+          .topnav a {  
+                font-size: 150%;
+            padding: 25px 32.7px;
         }
       }
 
@@ -60,7 +60,6 @@ html, body {
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
-    font-size: 1.19vw;
     position:relative;
 }
 
@@ -87,7 +86,6 @@ html, body {
 }
 
 .topnav a.active {
-  font-size: 120%;
   font-family:Rockwell;
     
     color: #52E01A;
