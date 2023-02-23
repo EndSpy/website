@@ -40,7 +40,8 @@ html, body {
       @media (max-width: 500px) {
 
           .topnav a {
-            padding: 10px 2px;
+            padding: 10px 7px;
+            font-size:105.4%;
         }
       }
 
