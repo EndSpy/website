@@ -25,6 +25,18 @@ html, body {
       }
 
 
+
+      @media (max-width: 500px) {
+        .s {
+          display: block;
+        }
+      .topnav a {
+            padding: 10px 2px;
+        }
+      }
+
+
+
 .topnav a {
     float: left;
     display: block;
