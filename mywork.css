@@ -105,8 +105,8 @@
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
     overflow-y: hidden;
-    -webkit-animation: fadeIn 1 1s ease-out;
-    -moz-animation: fadeIn 1 1s ease-out;
+    -webkit-animation: fadeIn 0 0s ease-out;
+    -moz-animation: fadeIn 0 0s ease-out;
 
   }
 
