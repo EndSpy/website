@@ -51,8 +51,9 @@ html, body {
       @media (max-width: 400px) {
 
       .topnav a {
-           padding: 10px 5px;
-          font-size:95%;
+           padding: 10px 4px;
+          font-size:106%;
+        height:80;
         }
       }
 
