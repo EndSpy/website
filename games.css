@@ -26,4 +26,21 @@
             height: 100%;
             background-repeat: Srepeat;
         }
+
+/*formatting for instruction text*/
+@media(min-width:800px) {
+
+.instructionStyle {
+        color:white;
+        font-size:190%;
+        }
+}
+
+/*removes instruction text on small devices*/
+@media(max-width:800px) {
+
+.instructionStyle {
+        display:none;
+}
+}
         
