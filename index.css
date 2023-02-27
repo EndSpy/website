@@ -27,7 +27,15 @@
 
 .text1 {
     font-size: 220%; 
+    }
 }
+
+/*Responsive phone size*/
+      @media (max-width: 500px) {
+
+.text1 {
+    font-size: 230%;
+    }
 }
 
 
