@@ -13,7 +13,7 @@
 
 
 
-/*Responsive computer size*/
+/*text 1 - Responsive computer size*/
       @media (min-width: 800px) {
 
 .text1 {
@@ -22,7 +22,7 @@
 
       }
 
-/*Responsive tablet size*/
+/*text 1 - Responsive tablet size*/
       @media (max-width: 800px) {
 
 .text1 {
@@ -30,7 +30,7 @@
     }
 }
 
-/*Responsive phone size*/
+/*text 1 - Responsive phone size*/
       @media (max-width: 500px) {
 
 .text1 {
@@ -65,7 +65,7 @@
     }
 }
 
-/*responsive image for computers*/
+/*Responsive image for computers*/
 @media (min-width:800px) {
 .codingImage {
     width: 50%;
@@ -76,7 +76,7 @@
 }
 
 
-/*Responsive computer size*/ 
+/*Source code buttton - Responsive computer size*/ 
       @media (min-width: 800px) {
 .sourcecode {
         width: 15%;
@@ -87,7 +87,7 @@
 
 
 
-/*Responsive tablets size*/ 
+/*Source code buttton - Responsive tablets size*/ 
       @media (max-width: 800px) {
 .sourcecode {
         width: 35%;
@@ -124,7 +124,7 @@
 
 
 
-  
+ /*options menu*/
   .Menu {
     font-family:Rockwell;
   width: 134.4pt;
