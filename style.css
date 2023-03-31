@@ -116,6 +116,9 @@ html, body {
 }
 
 .hiddenButton {
+  display: block;top: revert;
+  display: flex;
+  align-items: center;
   display:none;
 }
 .dropDown:hover .hiddenButton {display:unset;}
