@@ -116,12 +116,12 @@ html, body {
 }
 
 .hiddenButton {
-  display: block;top: revert;
-  display: flex;
-  align-items: center;
-  display:none;
+  display: block;
 }
-.dropDown:hover .hiddenButton {display:unset;}
+
+.dropDown:hover .hiddenButton {
+  display:unset;
+}
 
 .topnavDropDown {
 width: 96pt;
