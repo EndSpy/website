@@ -19,8 +19,23 @@
 .text1 {
     font-size: 190%; 
 }
+    }
 
-      }
+
+
+
+.text1 {
+    text-align: center;
+    color:white; 
+    font-size:21pt; 
+    font-style:italic;
+}
+
+
+
+
+
+
 
 /*text 1 - Responsive tablet size*/
       @media (max-width: 800px) {
