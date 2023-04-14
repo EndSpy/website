@@ -69,6 +69,12 @@ html, body {
         }
       }
 
+      
+@media screen and (min-width:20em) {
+br{
+  display: none;
+}  
+}
 
 .topnav a {
     float: left;
