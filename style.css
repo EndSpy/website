@@ -121,6 +121,17 @@ br{
     display: none;
 }
 
+.hiddenTopNavButton {
+display: block;
+top:revert;
+display: flex;
+align-items: center;
+display: none;
+margin:0 9.6%;
+position: relative;
+}
+
+
 .hiddenButton {
   display: block;
 }
