@@ -47,15 +47,21 @@
 
 
 
-
 .text2 {
-    margin:0;
     text-align: center;
     text-shadow: #000000;
     font-size: 25pt; 
     color: white;
     font-style: oblique;
 }
+
+@media (min-width:800px) {
+    .text2 {
+      margin: 0 190;
+    }
+  }
+
+
 
 
 /*responsive image for smaller devices*/
