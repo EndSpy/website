@@ -12,6 +12,14 @@
 }
 
 
+.text1 {
+    color: white;
+    text-align: center;
+    font-size:21pt; 
+    font-style:italic;
+    margin:0;
+    
+    }
 
 /*text 1 - Responsive computer size*/
       @media (min-width: 800px) {
@@ -38,13 +46,7 @@
 }
 
 
-.text1 {
-    color: white;
-    text-align: center;
-    font-size:21pt; 
-    font-style:italic;
-    
-    }
+
 
 .text2 {
     position: absolute;
