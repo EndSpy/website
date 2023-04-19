@@ -61,6 +61,11 @@
     }
   }
 
+  @media (max-width:800px) {
+    .text2 {
+      margin:0;
+    }
+  }
 
 
 
