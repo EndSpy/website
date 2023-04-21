@@ -100,14 +100,14 @@
 
 
 
-    background: radial-gradient(#49248d,#2c2020);
+    background: linear-gradient(to right, white,blue);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
     overflow-y: hidden;
     -webkit-animation: fadeIn 0 0s ease-out;
     -moz-animation: fadeIn 0 0s ease-out;
-
+    
   }
 
 
