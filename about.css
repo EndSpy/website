@@ -31,6 +31,7 @@ body:before {
   animation-direction: reverse;
 }
 
+
 @keyframes theme {
   0% {
     background: #74C390;
@@ -82,23 +83,17 @@ body:before {
 }
 
 .egyptFlag {
-    width: 
-      30%;
-  Height:
-    50%;
-    float: 
-    left; 
-    
-  clear:
-    both
+  width: 30%;
+  Height: auto;
+  float: left; 
+  margin:-.5% 1.9%;
+  clear:both;
 }
 
 
 .gamingImage {
     float: right;
     margin:-.5% 1.9%;
-    width: 
-      30%;
-  height:
-    auto;
+    width: 30%;
+  height: auto;
 }
