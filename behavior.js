@@ -38,7 +38,7 @@ function myfunction() {
     } else {
         x.className = "topnav";
     }
-}
+};
 
 
 
