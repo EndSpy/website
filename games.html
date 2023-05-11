@@ -38,9 +38,38 @@
           <a class="topBarStyle" href="contact">Contact Me</a>
           <a class="active" href="games">Games</a>
           <a class="topBarStyle" href="about">About Me</a>
-          <a href="javascript:void(0);" class="icon" onclick="myfunction()">
-      </div>
+          <a class="topBarStyle" href="javascript:void(0);" class="icon" onclick="myfunction()">
+            <style>
+    @media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+        }
+    }               
+            </style>
+</div>
+
 </a>
+
+<!--Dropdown menu for "My Work" tab-->
+<div id="hiddenTopNavMessage" class="hiddenTopNavButton">
+<div>
+                <a href="mywork/pcbuilding" target="link">
+            <button class="topnavDropDown">
+                PC Building
+               </button>   
+           </a>                       
+        </a>
+</div>
+
+<div>
+               <a href="mywork/game-development" target="link">
+       <button class="topnavDropDown">
+            Game Development
+           </button>   
+       </a>
+    </a>
+</div>
+</div>
 
 <br>
 <center class="instructionStyle">Use the keys WASD to control the ball and dodge the obstacles</center>
