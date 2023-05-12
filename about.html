@@ -30,14 +30,43 @@
                 <!–– the menues in the top bar ––>
             <div class="topnav" id="mytopnav">
                 <a class="topBarStyle" href="https://peterwissa.ga">Home</a>
-                <a class="topBarStyle" href="mywork">My Work</a>
-                <a class="topBarStyle" href="contact">Contact Me</a>
+                <a class="topBarStyle dropDown" type="button" onclick="revealTopNavMessage()">My Work <i class="fa fa-caret-down"></i>
+                  <a class="topBarStyle" href="contact">Contact Me</a>
                 <a class="topBarStyle" href="games">Games</a>
                 <a class="active" href="about">About Me</a>
                 <a class="topBarStyle" href="javascript:void(0);" class="icon" onclick="myfunction()">
-            </div>
-</a>
-
+                  <style>
+          @media (max-width: 767px) {
+              .hidden-mobile {
+                display: none;
+              }
+          }               
+                  </style>
+      </div>
+      
+      </a>
+      
+      <!--Dropdown menu for "My Work" tab-->
+      <div id="hiddenTopNavMessage" class="hiddenTopNavButton">
+      <div>
+                      <a href="mywork/pcbuilding" target="link">
+                  <button class="topnavDropDown">
+                      PC Building
+                     </button>   
+                 </a>                       
+              </a>
+      </div>
+      
+      <div>
+                     <a href="mywork/game-development" target="link">
+             <button class="topnavDropDown">
+                  Game Development
+                 </button>   
+             </a>
+          </a>
+      </div>
+      </div>
+      
 
 
         
