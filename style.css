@@ -140,6 +140,7 @@ position: relative;
 
 .dropDown:hover .hiddenButton {
   display:unset;
+  cursor: pointer;
 }
 
 .topnavDropDown {
