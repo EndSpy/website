@@ -150,6 +150,7 @@ padding: 7px;
 background-color: gray;
 font-size: 0.35m;
 color: #00FFFF;
+overflow:visible;
 }
 
 .background3 {
