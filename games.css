@@ -104,3 +104,11 @@
                         
                 }
                 }
+
+        @media(max-width:650px) {
+                .gameSize {
+                margin-left:-25%;
+                scale:50%;
+                        
+                }
+                }
