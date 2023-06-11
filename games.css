@@ -144,3 +144,18 @@
                         
                 }
                 }
+
+        @media(max-width:400px) {
+                .gameSize {
+                margin-top:-50px;
+
+                }       
+                }
+                        
+        @media(max-width:349px) {
+                .gameSize {
+                margin-left:-35%;
+                scale:25%;
+                        
+                }
+                }
