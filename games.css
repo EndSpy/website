@@ -52,3 +52,10 @@
         }
         
 
+        @media(min-width:970px) {
+                .gameSize {
+                scale:70%;
+                float:none;
+                
+                }
+                }
