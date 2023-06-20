@@ -66,6 +66,21 @@
                 
                 }
                 }
+        @media(max-width:1280px) {
+                .gameSize {
+                scale:90%;
+                float:none;
+                
+                }
+                }
+        @media(max-width:1170px) {
+                .gameSize {
+                scale:80%;
+                float:none;
+                
+                }
+                }
+
         @media(min-width:970px) {
                 .gameSize {
                 scale:70%;
