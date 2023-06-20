@@ -66,6 +66,7 @@
                 
                 }
                 }
+
         @media(max-width:1280px) {
                 .gameSize {
                 scale:90%;
@@ -73,6 +74,7 @@
                 
                 }
                 }
+
         @media(max-width:1170px) {
                 .gameSize {
                 scale:80%;
@@ -80,6 +82,7 @@
                 
                 }
                 }
+
         @media(max-width:1060px) {
                 .gameSize {
                 scale:70%;
@@ -87,6 +90,7 @@
                 
                 }
                 }
+
         @media(max-width:950px) {
                 .gameSize {
                 scale:70%;
@@ -94,12 +98,14 @@
                 
                 }
                 }
+
         @media(max-width:887px) {
                 .instructionstyle {
                 margin-top:-60px;
 
                 }
                 }
+
         @media(max-width:815px) {
                 .gameSize {
                 scale:65%;
@@ -111,6 +117,7 @@
 
                 }
                 }
+
         @media(max-width:800px) {
                 .gameSize {
                 scale:65%;
@@ -124,7 +131,6 @@
                         
                 }
                 }
-
 
         @media(max-width:692px) {
                 .gameSize {
@@ -174,7 +180,7 @@
 
                 }       
                 }
-                        
+
         @media(max-width:349px) {
                 .gameSize {
                 scale:25%;
@@ -188,7 +194,7 @@
                 
                 }
                 }
-
+                
         @media(max-width:290px) {
                 .gameSize {
                 scale:20%;
