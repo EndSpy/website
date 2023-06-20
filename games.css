@@ -100,17 +100,8 @@
 
                 }
                 }
-        @media(min-width:856px) {
+        @media(max-width:815px) {
                 .gameSize {
-                scale:70%;
-                float:left;
-                
-                }
-                }
-
-        @media(max-width:855px) {
-                .gameSize {
-                margin-left:-15%;
                 scale:65%;
                                     
                 }
@@ -120,7 +111,6 @@
 
                 }
                 }
-
         @media(max-width:800px) {
                 .gameSize {
                 margin-left:-20%;
