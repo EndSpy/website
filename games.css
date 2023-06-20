@@ -191,7 +191,6 @@
 
         @media(max-width:290px) {
                 .gameSize {
-                margin-left:-35%;
                 scale:20%;
 
                 }
