@@ -51,7 +51,21 @@
         margin-right:50%;
         }
         
+        @media(min-width:1920px) {
+                .gameSize {
+                scale:109%;
+                float:none;
+                
+                }
+                }
 
+        @media(max-width:1919px) {
+                .gameSize {
+                scale:100%;
+                float:none;
+                
+                }
+                }
         @media(min-width:970px) {
                 .gameSize {
                 scale:70%;
