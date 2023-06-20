@@ -87,7 +87,6 @@
                 
                 }
                 }
-
         @media(max-width:950px) {
                 .gameSize {
                 scale:70%;
@@ -95,8 +94,12 @@
                 
                 }
                 }
+        @media(max-width:887px) {
+                .instructionstyle {
+                margin-top:-60px;
 
-
+                }
+                }
         @media(min-width:856px) {
                 .gameSize {
                 scale:70%;
