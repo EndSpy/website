@@ -80,6 +80,13 @@
                 
                 }
                 }
+        @media(max-width:1060px) {
+                .gameSize {
+                scale:70%;
+                float:none;
+                
+                }
+                }
 
         @media(min-width:970px) {
                 .gameSize {
