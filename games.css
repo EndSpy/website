@@ -126,17 +126,15 @@
                 }
 
 
-        @media(max-width:720px) {
+        @media(max-width:692px) {
                 .gameSize {
-                margin-left:-24%;
                 scale:55%;
                         
                 }
                 }
 
-        @media(max-width:650px) {
+        @media(max-width:634px) {
                 .gameSize {
-                margin-left:-25%;
                 scale:50%;
                         
                 }
