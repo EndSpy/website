@@ -102,49 +102,68 @@
 
 
 .c1{
-  -webkit-animation: floatUp 6s infinite linear;
+  -webkit-animation: cfloatUp 6s infinite linear;
   left: -90%;
 
 } 
 .c2{
-  -webkit-animation: floatUp 5s infinite linear;
+  -webkit-animation: cfloatUp 5s infinite linear;
   left: -70%;
 }
 
 .c3{
-  -webkit-animation: floatUp 4s infinite linear;
+  -webkit-animation: cfloatUp 4s infinite linear;
   left: -50%;
 }
 
 .c4{
-  -webkit-animation: floatUp 3s infinite linear;
+  -webkit-animation: cfloatUp 3s infinite linear;
   left: -30%;
 }
 /*
 .c5{
-  -webkit-animation: floatUp 2s infinite linear;
+  -webkit-animation: cfloatUp 2s infinite linear;
   left: 0%;
 }
 */
 
 .c6{
-  -webkit-animation: floatUp 3s infinite linear;
+  -webkit-animation: cfloatUp 3s infinite linear;
   left: 30%;
 }
 .c7{
-  -webkit-animation: floatUp 4s infinite linear;
+  -webkit-animation: cfloatUp 4s infinite linear;
   left: 50%;
 }
 .c8{
-  -webkit-animation: floatUp 5s infinite linear;
+  -webkit-animation: cfloatUp 5s infinite linear;
 
   left: 70%;
 }
 .c9{
-  -webkit-animation: floatUp 6s infinite linear;
+  -webkit-animation: cfloatUp 6s infinite linear;
 
   left: 90%;
 }
+
+@-webkit-keyframes cfloatUp{
+  0%{top: 100vh; opacity: 1;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: 1;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 1;}
+}
+@-moz-keyframes cfloatUp{
+  0%{top: 100vh; opacity: 1;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: 1;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 1;}
+}
+
+
+
+
 
 
 
