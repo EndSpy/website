@@ -96,6 +96,55 @@
   to{opacity: 1;}
 }
 
+
+
+
+
+
+.c1{
+  -webkit-animation: floatUp 6s infinite linear;
+  left: -90%;
+
+} 
+.c2{
+  -webkit-animation: floatUp 5s infinite linear;
+  left: -70%;
+}
+
+.c3{
+  -webkit-animation: floatUp 4s infinite linear;
+  left: -50%;
+}
+
+.c4{
+  -webkit-animation: floatUp 3s infinite linear;
+  left: -30%;
+}
+/*
+.c5{
+  -webkit-animation: floatUp 2s infinite linear;
+  left: 0%;
+}
+*/
+
+.c6{
+  -webkit-animation: floatUp 3s infinite linear;
+  left: 30%;
+}
+.c7{
+  -webkit-animation: floatUp 5s infinite linear;
+  left: 50%;
+}
+.c8{
+  -webkit-animation: floatUp 7s infinite linear;
+
+  left: 70%;
+}
+
+
+
+
+
   .myworkStyle {
 
 
