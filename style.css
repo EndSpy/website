@@ -8,6 +8,12 @@ html, body {
   text-align: center;
 }
 
+@media (min-width:960px) {
+
+.hidden-computer {
+  display: none;
+}
+}
   .topnav {
     overflow: hidden;
 }
