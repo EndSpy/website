@@ -176,13 +176,55 @@ currentSlide(1)
 
 
 
-    <h2 id="" style="font-family:pacifico; font-size:150%; float:right; margin-bottom:-310;">Second Build
-    </h2>
+
+<h2 id="" style="font-family:pacifico; font-size:150%; float:right; margin-bottom:-310;">Second Build
+</h2>
+
+
+
+
+
+
+
+
+
 
   <a style=" font-size:100%; float:right; margin-top: 90;">this is the 2nd computer that I've built. I built this for a classmate for ~$70 when I was 13 years old</a>
 
+
+<div style="margin-top:150;">
+<script>
+var i = 0;
+var images = [];	
+var time = 3000;	
+	 
+images[0] = 'https://peterwissa.tk/media/computers/my-computer/computer%201.1.jpg';
+images[2] = 'https://peterwissa.tk/media/computers/my-computer/computer%201.4.JPG';
+images[1] = "https://peterwissa.tk/media/computers/my-computer/computer%201.3.jpg";
+images[3] = "https://peterwissa.tk/media/computers/my-computer/computer%201.2.JPG";
+
+function changeImg(){
+document.slide.src = images[i];
+
+if(i < images.length - 1){
+i++; 
+} 
+else { i = 0;
+}
+setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+</script>
+
+<img name="slide" width="400" height="auto" style="float:right;">
 </div>
+
+
+</div>
+
 </body>
+
 
 
 
