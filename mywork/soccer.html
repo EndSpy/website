@@ -1,3 +1,243 @@
 <html>
+  <head>
+    <title> - Peter Wissa</title>
+
+  <!--Link to access main styles file-->
+<link rel="stylesheet" href="/style.css">
+
+  <!--Link to access specific styles file-->
+<link rel="stylesheet" href="/mywork.css">
+
+  <!--Link to access the javascript file-->
+<script src="/behavior.js"></script>
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--The main font used for this page -->
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--Background animation-->
+<div class='light x1'></div>
+<div class='light x2'></div>
+<div class='light x3'></div>
+<div class='light x4'></div>
+<div class='light x5'></div>
+<div class='light x6'></div> 
+<div class='light x7'></div>
+<div class='light x8'></div>
+<div class='light x9'></div>
+
+
+<div class="myworkStyle myworkBackground">
+
+  
+  <div class="topnav">
+
+  <!--Top menu-->
+  <a class="topbarStyle" href="/">Home</a>
+  <a class="topBarStyle dropDown" type="button" onclick="revealTopNavMessage()">My Work <i class="fa fa-caret-down"></i>
+  <a class="topbarStyle" href="/contact.html">Contact Me</a>
+  <a class="topbarStyle" href="/games.html">Games</a>
+  <a class="topbarStyle" href="/about.html">About Me</a>
+  <a class="topbarStyle icon" href="javascript:void(0);" onclick="myfunction()"></a>
+
+  <style>
+    @media (max-width: 767px) {
+        .hidden-mobile {
+          display: none;
+        }
+    }               
+            </style>
+            
+  </div>
+
+
+<!--Dropdown menu for "My Work" tab-->
+<div id="hiddenTopNavMessage" class="hiddenTopNavButton">
+  <div>
+                 <a href="/mywork/pcbuilding.html" target="link">
+         <button class="topnavDropDown">
+              PC Building
+             </button>   
+         </a>
+      </a>
+  </div>
+  </div>
+  
+  <div>
+                 <a href="/mywork/game-development.html" target="link">
+         <button class="topnavDropDown">
+              Game Development
+             </button>   
+         </a>
+      </a>
+  </div>
+  </div>
+  <div>
+                  <a target="link">
+              <button class="topnavDropDown" style="text-decoration:underline;">
+                  Soccer
+                 </button>   
+             </a>                       
+          </a>
+  </div>
+
+
+
+
+
+  <!--Page Title-->
+  <h1 style="font-family:Pacifico; font-size:305%; color:000000; text-align:center; position:relative;">
+    Soccer history
+  </h1>
+
+
+<!--1st title-->
+  <h2 style="font-family:pacifico; font-size:150%;">
+    before 2017:
+    Egyptian streets
+  </h2>
+<!--1st Description-->
+   <a style="font-family: Roboto;">
+  .  
+  </a>
+
+
+
+
+
+<!--2nd title-->
+<h2 id="" style="font-family:pacifico; font-size:150%; float:right; margin-bottom:-310;">
+2018-2019:
+Syracuse Elementry Team
+</h2>
+
+<!--2nd Description-->
+  <a style=" font-size:100%; float:right; margin-top: 90;">
+  
+  </a>
+
+<!--2nd title image-->
+  <div style="margin-top:150;">
+  <script>
+  var i = 0;
+  var images = [];	
+  var time = 1500;	
+	 
+    images[0] = '/media/soccer/soccer%201.JPG';
+
+  function changeImg(){
+    document.slide.src = images[i];
+
+if(i < images.length - 1){
+i++; 
+} else { i = 0;
+}
+setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+</script>
+
+<img name="slide" width="500" height="auto" style="float:right;">
+</div>
+
+
+</div>
+
+
+
+
+
+<!--3rd title-->
+<h2 style="font-family:pacifico; font-size:150%;">
+2022:
+Modified 7/8 School Soccer Team
+</h2>
+
+<!--3rd Description-->
+ <a style="font-family: Roboto;">
+.  
+</a>
+
+
+<!--4th title-->
+  <h2 id="" style="font-family:pacifico; font-size:150%; float:right; margin-bottom:-310;">
+    2023:
+    Freshmen School Soccer Team
+  </h2>
+</body>
+
+
+<!--4th title image-->
+  <div style="margin-top:150;">
+  <script>
+  var i = 0;
+  var images = [];	
+  var time = 1500;	
+	 
+    images[0] = '/media/soccer/soccer%202.JPG';
+
+  function changeImg(){
+    document.slide.src = images[i];
+
+if(i < images.length - 1){
+i++; 
+} else { i = 0;
+}
+setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+</script>
+
+<img name="slide" width="500" height="auto" style="float:right;">
+</div>
+
+
+</div>
+
+
+
+  <!--Bottom footer of the page-->
+<footer class="footer">
+
+  <br>
+  <p class="footerTitle">Peter Wissa
+  </p>
+<br>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<ul>
+  <!--Social media part of the footer-->
+  <div class="social">
+    <p>
+
+
+      <a href="https://www.github.com/PeterWissa" target="link" title="github"> <i class="fa-brands fa-github"></i></a>
+      <a href="https://www.discordapp.com/users/787446782929534986" target="link" title="discord"> <i class="fa-brands fa-discord"></i></a>
+      <a href="https://www.instagram.com/peterwissa1/" target="link" title="instagram"> <i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/peter.wissa1234" target="link" title="facebook"> <i class="fa-brands fa-facebook"></i></a>
+            </p>
+  </div>
+<br>
+<br>
+
+<center>
+
+  I started this website in February, 2022. I have been working on it since then. It still needs a lot of work, but I use it to test many new beta features and ideas.
+  Many times you may find problems, issues, errors, and bugs in the website. You can report Them in the <a href="/contact">contact</a> form.
+</center>
+
+<small>Designed by Peter Wissa</small>
+<br>
+<small>&copy; Copyright 2023, Peter Wissa. All Rights Reserved</small>
+</footer>
+
 
 </html>
